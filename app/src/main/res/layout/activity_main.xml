@@ -14,6 +14,7 @@
         android:text="@string/button_label_toast"
         android:background="@color/purple_700"
         android:textColor="@color/white"
+        android:onClick="showToast"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,6 +26,7 @@
         android:text="@string/button_label_count"
         android:background="@color/purple_700"
         android:textColor="@color/white"
+        android:onClick="countUp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
